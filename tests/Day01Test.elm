@@ -41,7 +41,7 @@ suite =
             [ test "Given Example" <|
                 \_ -> example1 |> parse |> part2 |> equal 31
             , test "Problem" <|
-                \_ -> problem |> parse |> part2 |> equal 54770
+                \_ -> problem |> parse |> part2 |> equal 20351745
             ]
         ]
 
